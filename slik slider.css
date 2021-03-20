@@ -1,0 +1,206 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: gold;
+}
+/* Hair oli page section  */
+.hair-oli{
+    display:flex;
+    padding: 30px 55px;
+    width: 1200px;
+    margin: 0 auto;
+    border: 1px solid gray;
+    box-shadow: 0px 1px 8px 0px;
+    }
+    .img-zoom-container{
+    position: relative;
+    width: 40%;
+    }
+    .img-zoom-lens {
+        position: absolute;
+        border: 1px solid #d4d4d4;
+        /*set the size of the lens:*/
+        width: 40px;
+        height: 40px;
+    } 
+    .img-zoom-result {
+        border: 1px solid #d4d4d4;
+        /*set the size of the result div:*/
+        width: 300px;
+        height: 300px;
+    }
+    .img-zoom-container img{
+        width: 100%;
+    }
+    /* about proudct dital and price section  */
+    .about-product{
+    width: 52%;
+    border: 1px solid;
+    padding: 0px 5px;
+    }
+    .prouduct-name{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 19px;
+        font-family: sans-serif;
+    }
+    .prouduct-name h5{
+        margin: 0px;
+        border-bottom: 2px solid;
+        padding-bottom:3px ;
+    }
+    .contry-flg{
+        display: flex;
+        align-items: center;
+        margin: 0px;
+        width: 35%;
+        color: #212529;
+    }
+    .contry-flg img{
+        width: 34%;
+    }
+    small{
+        padding: 0px 5px;
+    }
+    .about-proudct-volm h1{
+        margin: 0px;
+        font-size: 16px;
+        color: #212529;;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .pro-coad{
+        font-family: sans-serif;
+        color: #212529;
+    }
+    .clrl-reboot{
+        padding-left: 10px;
+        color: crimson;
+    }
+    .Services{
+        padding-top: 20px;
+    }
+    .Services ul{
+        list-style-type: none;
+        display: flex;
+        padding-left: 0px;
+    }
+    h6{
+        margin: 0px;
+    }
+    .Services h6{
+    font-family: sans-serif;
+        font-size: 15px;
+        margin-bottom: -10px;
+        color: rgb(59, 59, 59);
+    }
+    .p-title{
+        font-family: sans-serif;
+        font-size: 15px;
+        padding: 18px 0px;
+    }
+    .from{
+        padding: 13px 0px;
+    }
+    .checkbox{
+        font-family: sans-serif;
+        font-size: 11px;
+        margin: 0px 10px;
+    }
+    .qyt-added{
+        border: 1px solid gray;
+        width: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between
+    }
+    .down-count ,.up-count{
+        width: 36px;
+        height: 40px;
+        float: left;
+        color: #444;
+        
+        border: none;
+        cursor: pointer;
+        background-color: white;
+    }
+    .qyt-added input{
+        width: 50px;
+        text-align: center;
+        font-size: 16px;
+        height: 40px;
+        border-left:1px solid gray ;
+        border-right: 1px solid gray;
+        border-top: none;
+        border-bottom: none;
+    }
+    .btns-rsnone{
+        display: flex;
+        padding-top: 20px;
+    }
+    .btn-normal{
+        background-color: crimson;
+        border: none;
+        outline: none;
+        color: seashell;
+        padding: 8px 38px;
+        font-size: 15px;
+        margin-right: 20px;
+    }
+    .btn-normal:hover{
+        cursor: pointer;
+        opacity:0.4 ;
+    }
+    .wish-btn{
+        width: 50%;
+    }
+    .similar-product{
+    width: 8%;
+    }
+    .product-tilte{
+        padding: 0px 25px;
+        font-size: 16px;
+        font-family: sans-serif;
+    }
+    .similar{
+        text-align: center;
+        font-size: 14px;
+        color: rgb(24, 24, 24);
+    } 
+    .similar p:hover{
+        color: crimson;
+        cursor: pointer;
+    
+    }
+    .similar-img{
+        padding-top: 30px;
+    }
+    .similar li{
+        list-style-type: none;
+    }
+    ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+      }
+      
+      ul li {
+        margin-top: -1px;
+        padding: 12px;
+        text-decoration: none;
+        font-size: 18px;
+        color: black;
+        display: block;
+        position: relative;
+      }
+      
+      .close {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        right: 0%;
+        padding: 12px 16px;
+        transform: translate(0%, -50%);
+      }
+      
+      .close:hover {background: #bbb;}
